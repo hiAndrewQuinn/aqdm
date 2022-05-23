@@ -1,7 +1,7 @@
 ---
 title: "Test"
 date: 2022-02-27T17:30:59+02:00
-draft: true
+draft: false
 ---
 
 Oh my God

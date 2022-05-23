@@ -1,7 +1,7 @@
 ---
 title: "Another Green world"
 date: 2022-02-27T18:03:15+02:00
-draft: true
+draft: false
 ---
 
 four score and seven years go
