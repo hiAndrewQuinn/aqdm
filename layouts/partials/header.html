@@ -1,0 +1,10 @@
+<header>
+    <div class="site-title">
+        <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+    </div>
+    {{ if isset .Site.Params "description" }}
+    <div class="site-description">
+        <p>{{ .Site.Params.Description | markdownify }}</p>
+    </div>
+    {{ end }}
+</header>
