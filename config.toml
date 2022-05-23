@@ -5,6 +5,7 @@ theme = 'noteworthy'
 
 hasCJKLanguage = false # This site does not have Chinese, Japanese, or Korean characters.
 enableRobotsTXT = true
+
 paginate = 3 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
 
@@ -43,8 +44,8 @@ disqusShortname = ""
     reddit = "https://www.reddit.com/user/hiAndrewQuinn/"
     
     # Weird stuff
-    beeminder = "https://www.beeminder.com/resonant_pyre/gallery"
-    obsidian = "https://publish.obsidian.md/aaq/"
+    # beeminder = "https://www.beeminder.com/resonant_pyre/gallery"
+    # obsidian = "https://publish.obsidian.md/aaq/"
 
 
 # Menu links along the sidebar navigation.
