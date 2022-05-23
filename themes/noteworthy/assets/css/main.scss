@@ -269,6 +269,24 @@ nav {
     }
 }
 
+
+@media (max-width: 480px) {
+    .site-title {
+        display: none !important;
+    }
+    .site-description {
+        display: none !important;
+    }
+    .nav-menu {
+        display: none !important;
+    }
+}
+
+.site-description {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: row;
