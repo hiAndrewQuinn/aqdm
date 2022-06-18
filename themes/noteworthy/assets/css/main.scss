@@ -115,7 +115,7 @@ h3 {
 }
 
 p {
-    margin: 0em 0 1em 0;
+    margin: 0.5em 0 0.5em 0;
 }
 
 // LINKS AND TAGS
@@ -308,7 +308,7 @@ nav {
 
 // CONTENT
 .content-container {
-    padding: 0.5em 1.5em 0em 1.5em;
+    padding: 0.4em 1.5em 0em 1.5em;
     margin: 0em;
     max-width: 100%;
 }
@@ -355,6 +355,11 @@ nav {
 .canon {
     width: 100%;
     height: auto;
+}
+
+.footnotes {
+    font-size: 80%;
+    text-align: justify;
 }
 
 a.footnote-ref {
