@@ -238,15 +238,21 @@ kbd {
 table {
     max-width: 100%;
     border-spacing: 0;
+    margin: 1em 0 1em 0;
 
     thead {
-        background: $gray-background;
+        background: $gray-table-border;
     }
 
     th,
     td {
         padding: 0.5em 1em;
         border: 1px double $gray-table-border;
+    }
+
+    tr:nth-child(even) {
+        /* Set every other cell slightly darker. Improves readability. */
+        background: $gray-background;
     }
 }
 
@@ -349,8 +355,18 @@ nav {
 
 .article-image {
     max-width: 100%;
-    margin: 0 0 1em;
+    margin: 1em 0 1em 0;
+    border-radius: 5px;
 }
+
+figcaption {
+    max-width: 98%;
+    margin: -1.5em 0 1em 0;
+    font-style: italic;
+    font-size: 80%;
+    text-align: justify;
+}
+
 
 .canon {
     width: 100%;
