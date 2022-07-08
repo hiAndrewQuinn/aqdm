@@ -9,7 +9,7 @@
         (<a href="https://www.kalzumeus.com/essays/dropping-hashes/#how-do-you-verify-a-dropped-hash">what is this?</a>)
     </span>
 </div>
-{{ end }}
+{{ end }}   
 <div>
     <p>
         {{ .Content }}
@@ -19,8 +19,8 @@
 
 {{ if .Site.Params.enableKofi }}
 
-<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-<script type='text/javascript'>
+<script defer type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
+<script defer type='text/javascript'>
     const kofiId = '{{ .Site.Params.Kofi }}';
     kofiwidget2.init('Support Me on Ko-fi', '#29abe0', kofiId);
     kofiwidget2.draw();
@@ -36,7 +36,7 @@
     {{ end }}
     {{ end }}
 
-<script src="https://utteranc.es/client.js" repo="hiAndrewQuinn/aqdm" issue-term="pathname" theme="boxy-light" crossorigin="anonymous" async>
+<script defer src="https://utteranc.es/client.js" repo="hiAndrewQuinn/aqdm" issue-term="pathname" theme="boxy-light" crossorigin="anonymous" async>
 </script>
 </div>
 
