@@ -5,5 +5,5 @@
     <p><a href="https://gohugo.io" target="_blank" rel="noopener">{{ i18n "built_with_hugo" }}</a></p>
 
 	{{ $script := resources.Get "js/main.js" | minify | fingerprint -}}
-	<script defer src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
+	<script async src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 </footer>

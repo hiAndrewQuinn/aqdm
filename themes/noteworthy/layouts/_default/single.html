@@ -19,8 +19,8 @@
 
 {{ if .Site.Params.enableKofi }}
 
-<script defer type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
-<script defer type='text/javascript'>
+<script async type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
+<script async type='text/javascript'>
     const kofiId = '{{ .Site.Params.Kofi }}';
     kofiwidget2.init('Support Me on Ko-fi', '#29abe0', kofiId);
     kofiwidget2.draw();
@@ -36,7 +36,7 @@
     {{ end }}
     {{ end }}
 
-<script defer src="https://utteranc.es/client.js" repo="hiAndrewQuinn/aqdm" issue-term="pathname" theme="boxy-light" crossorigin="anonymous" async>
+<script async src="https://utteranc.es/client.js" repo="hiAndrewQuinn/aqdm" issue-term="pathname" theme="boxy-light" crossorigin="anonymous" async>
 </script>
 </div>
 
