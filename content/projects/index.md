@@ -17,7 +17,7 @@ Recently I've been doing most of my public-facing work on GitHub. I'm a fairly f
 
 # Smaller edits
 
-## `Quickstart` click-and-run edits
+## Quickstart edits
 
 I fork a lot of repos on GitHub to mess around with.
 
