@@ -3,6 +3,12 @@
 <h1 class="post-title">{{ .Title }}</h1>
 {{ if .Date }}
 <time>{{ .Date.Format "January 2, 2006" }}</time>
+<div class="post-md5">
+    <span class="post-md5-string">{{ md5 .Content }}</span>
+    <span class="post-md5-explanation">
+        (<a href="https://www.kalzumeus.com/essays/dropping-hashes/#how-do-you-verify-a-dropped-hash">what is this?</a>)
+    </span>
+</div>
 {{ end }}
 <div>
     <p>

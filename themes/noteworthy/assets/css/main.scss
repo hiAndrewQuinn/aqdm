@@ -443,6 +443,15 @@ a.footnote-ref {
     padding-bottom: 1.8em;
 }
 
+.post-md5 {
+    font-size: 75%;
+}
+.post-md5-string {
+    font-family: monospace;
+    background-color: #ffec5c4a;
+    border-radius: 2px;
+}
+
 .hidden {
     visibility: hidden;
     border-bottom: 0px solid;
