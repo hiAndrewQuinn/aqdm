@@ -17,6 +17,8 @@ Recently I've been doing most of my public-facing work on GitHub. I'm a fairly f
 
 # Smaller edits
 
+## `Quickstart` click-and-run edits
+
 I fork a lot of repos on GitHub to mess around with.
 
 I've fallen into the habit of writing `Quickstart` sections for anyone in the future who wants to just dive in and start messing with them. The ideal I aspire to is always the same: Someone with no knowledge of the project's local ecosystem should be able to (1) copy my Quickstart code, (2) run it, and (3) be able to get the code to start working, ideally with an example.
