@@ -1,0 +1,3 @@
+[submodule "themes/hugo-plain-theme"]
+	path = themes/hugo-plain-theme
+	url = https://github.com/hiAndrewQuinn/hugo-plain-theme.git
